@@ -1,6 +1,4 @@
 import socket
-import threading
-from queue import Queue
 from scapy.all import ARP, Ether, srp
 
 def discover_hosts(target_ip):
